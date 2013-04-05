@@ -26,7 +26,7 @@
 <div id="page-main" data-role="page" data-url="http://m.triviala.com/" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 679px;">
 
 	<div id="header" class="clearfix">
-		<h1><a href="./Trivia_files/Trivia.htm" class="ui-link">Triviala.com</a></h1>
+		<h1><a href="" class="ui-link">Triviala</a></h1>
 		<ul id="nav">
 			<li id="nav1"><a href="http://m.triviala.com/quizzes" class="ui-link"><span>做谜题</span></a></li>
 			<li id="nav2"><a href="http://m.triviala.com/user/quizzes/create" class="ui-link"><span>创建谜题</span></a></li>		
