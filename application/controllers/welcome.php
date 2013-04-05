@@ -2,6 +2,13 @@
 
 class Welcome extends CI_Controller {
 
+	 function __construct()
+    {
+       parent::__construct();
+	   $this->load->helper('url');
+	   $this->load->helper('form');	   
+    }
+
 	/**
 	 * Index Page for this controller.
 	 *
@@ -18,7 +25,7 @@ class Welcome extends CI_Controller {
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
+	{ 
 		$this->load->view('welcome_message');
 	}
 }
