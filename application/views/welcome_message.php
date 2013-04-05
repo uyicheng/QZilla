@@ -13,10 +13,11 @@
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://m.triviala.com/img/m/apple-touch-icon.png">
 	<link rel="apple-touch-icon-precomposed" href="http://m.triviala.com/img/l/apple-touch-icon-precomposed.png">
 	<link rel="shortcut icon" href="http://m.triviala.com/img/l/apple-touch-icon.png">
-	<meta http-equiv="cleartype" content="on">
-	<link rel="stylesheet" href="<?php echo base_url();?>css/common.css">
+	<meta http-equiv="cleartype" content="on">	
 	<link rel="stylesheet" href="<?php echo base_url();?>css/jquery.mobile-1.3.0.css">		
+	<link rel="stylesheet" href="<?php echo base_url();?>css/quiz.css">
 	<!--	
+	<link rel="stylesheet" href="<?php echo base_url();?>css/common.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>css/jquery.mobile.structure-1.3.0.css">			
 	<link rel="stylesheet" href="<?php echo base_url();?>css/jquery.mobile.theme-1.3.0.css">				
 	-->
@@ -27,12 +28,12 @@
 	<div id="header" class="clearfix">
 		<h1><a href="./Trivia_files/Trivia.htm" class="ui-link">Triviala.com</a></h1>
 		<ul id="nav">
-			<li id="nav1"><a href="http://m.triviala.com/quizzes" class="ui-link"><span>PLAY</span></a></li>
-			<li id="nav2"><a href="http://m.triviala.com/user/quizzes/create" class="ui-link"><span>MAKE</span></a></li>		
-			<li id="nav3"><a href="http://m.triviala.com/signin" class="ui-link"><span>PROFILE</span></a></li>
+			<li id="nav1"><a href="http://m.triviala.com/quizzes" class="ui-link"><span>做谜题</span></a></li>
+			<li id="nav2"><a href="http://m.triviala.com/user/quizzes/create" class="ui-link"><span>创建谜题</span></a></li>		
+			<li id="nav3"><a href="http://m.triviala.com/signin" class="ui-link"><span>用户设置</span></a></li>
 		</ul>
 	</div>
-	<h2 id="pan">Play A Quiz. Make A Quiz. Win Prizes. Over 1m questions!</h2>
+	<h2 id="pan">做谜题，创建谜题，赢取奖金。超过1万道题库！</h2>
 	<!--div id="search">
 		<form action="http://m.triviala.com/quizzes/search" method="post" name="form_search_main" id="form_search_main">
 			<label for="search-basic" class="ui-hidden-accessible">Search Quiz:</label>
@@ -47,55 +48,61 @@
 			</div>
 		</form>
 	</div-->
-	<div id="content" data-role="content" class="quizzes ui-content" role="main">	
-		<p>New quizzes added on: 05 Apr @ 04:33</p>
-		<ul data-role="listview" class="quizzes ui-listview">			
-			<li data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb">
-				<div class="ui-btn-inner ui-li">
-					<div class="ui-btn-text">
-						<a href="http://m.triviala.com/quizzes/view/general/paranormal-weird/you-are-a-nightmare/3062" class="ui-link-inherit">
-							<img src="<?php echo base_url();?>photo/dog.jpg" alt="" class="ui-li-thumb">
-							<div class="quizData">
-								<h4 class="ui-li-heading">You Are A Nightmare !!</h4>
-								<div class="quizzesStats">
+	<div id="content" data-role="content" class="" role="main">	
+		<p>最近上传@ 2013-4-5 04:33</p>
+		<ul data-role="listview" data-inset="true" class="">			
+			<li data-theme="c" >							
+				<a href="" class="ui-link-inherit">					
+					<img src="<?php echo base_url();?>photo/dog.jpg" alt="" class="ui-li-thumb">
+					<div class="quizData">						
+						<h4 class="">一头公牛加一头母牛，猜三个字？</h4>
+							<div class="quizzesStats">
 									<div class="stats">
-										<p class="ui-li-desc">By: aleenaachu</p>
-										<p class="ui-li-desc">Played: 385 times</p>
+										<p class="ui-li-desc">作者: Alfred</p>
+										<p class="ui-li-desc">次数: 385次</p>
 									</div>
 									<div class="rating rstar-5">4.03/5</div>
-								</div>						
 							</div>
-						</a>
 					</div>
-					<span class="ui-icon ui-icon-arrow-r ui-icon-shadow"></span>
-				</div>
+				</a>					
 			</li>
 			
-			<li data-theme="c" class="ui-btn ui-btn-up-c ui-btn-icon-right ui-li-has-arrow ui-li ui-li-has-thumb">
-				<div class="ui-btn-inner ui-li">
-					<div class="ui-btn-text">
-						<a href="http://m.triviala.com/quizzes/view/general/paranormal-weird/you-are-a-nightmare/3062" class="ui-link-inherit">
-							<img src="<?php echo base_url();?>photo/dog.jpg" alt="" class="ui-li-thumb">
-							<div class="quizData">
-								<h4 class="ui-li-heading">You Are A Nightmare !!</h4>
-								<div class="quizzesStats">
+			<li data-theme="c" >
+				<a href="" class="ui-link-inherit">
+					<img src="<?php echo base_url();?>photo/ws.jpg" alt="" class="">
+					<div class="quizData">
+						<h4 class="">什么样的轮子只转不走？</h4>
+							<div class="quizzesStats">
 									<div class="stats">
-										<p class="ui-li-desc">By: aleenaachu</p>
-										<p class="ui-li-desc">Played: 385 times</p>
+										<p class="ui-li-desc">作者: Jaison</p>
+										<p class="ui-li-desc">次数: 385次</p>
 									</div>
-									<div class="rating rstar-5">4.03/5</div>
-								</div>						
+									<div class="rating rstar-2">2.03/5</div>
 							</div>
-						</a>
 					</div>
-					<span class="ui-icon ui-icon-arrow-r ui-icon-shadow"></span>
-				</div>
+				</a>					
+			</li>
+			
+			<li data-theme="c" >
+				<a href="" class="ui-link-inherit">
+					<img src="<?php echo base_url();?>photo/ws.jpg" alt="" class="">
+					<div class="quizData">
+						<h4 class="">油漆工的徒弟叫啥？</h4>
+							<div class="quizzesStats">
+									<div class="stats">
+										<p class="ui-li-desc">作者: Jaison</p>
+										<p class="ui-li-desc">次数: 385次</p>
+									</div>
+									<div class="rating rstar-3">3.03/5</div>
+							</div>
+					</div>
+				</a>					
 			</li>
 			
 		</ul>			
-		<a href="http://m.triviala.com/quizzes" data-role="button" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-corner-all ui-shadow">
+		<a href="" data-role="button" data-theme="c" class="ui-btn ui-btn-up-c ui-btn-corner-all ui-shadow">
 			<span class="ui-btn-inner ui-btn-corner-all">
-				<span class="ui-btn-text">Browse More Cool Quizzes</span>
+				<span class="ui-btn-text">更多谜题...</span>
 			</span>
 		</a>
 	</div>
