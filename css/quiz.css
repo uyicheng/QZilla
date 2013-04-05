@@ -1,0 +1,61 @@
+li img{
+	/*
+   border:1px solid #fdfdfd;
+   -moz-box-shadow:1px 1px 1px rgba(179,179,179,0.75);
+   -webkit-box-shadow:1px 1px 1px rgba(179,179,179,0.75);
+   */
+   /*margin:5px;*/
+}
+li .quizData h4{margin:1px 0 5px 0;
+}
+li .quizData a{font-size:14px;font-weight:bold;color:#2a2a2a;text-decoration:none;text-shadow:0 1px 0 #fff;
+}
+li .quizData .quizzesStats{color:#817c7c;font-size:11px;line-height:normal;margin-top:0;
+}
+li .quizData .quizzesStats .stats{float:left;
+}
+li .quizData .quizzesStats .stats p{margin:0 0 2px 0;
+}
+li .quizData .quizzesStats .rating{float:right;padding-right:30px;padding-top:16px;padding-left:24px;
+}
+.rstar-0{background:url(../img/template/rating_icon.png) no-repeat 0 10px;
+}
+.rstar-1{background:url(../img/template/rating_icon.png) no-repeat 0 -25px;
+}
+.rstar-2{background:url(../img/template/rating_icon.png) no-repeat 0 -60px;
+}
+.rstar-3{background:url(../img/template/rating_icon.png) no-repeat 0 -95px;
+}
+.rstar-4{background:url(../img/template/rating_icon.png) no-repeat 0 -130px;
+}
+.rstar-5{background:url(../img/template/rating_icon.png) no-repeat 0 -165px;
+}
+.ui-li-thumb, .ui-listview .ui-li-icon {
+	position: absolute;
+	left: 1px;
+	top: 0;
+	max-height: 80px;
+	max-width: 80px;
+}
+#header{height:46px;min-width:300px;background:url(../img/template/header_bg.png) repeat-x;margin:0;
+}
+#header h1{margin:0;padding:0;text-indent:-5000px;float:left;
+}
+#header h1 a{text-decoration:none;width:80px;height:46px;display:block;background:url(../img/template/sprite_icons.png) no-repeat 8px 0;outline:none;
+}
+#nav{float:right;text-align:right;margin:0;padding:0 10px 0 0;
+}
+#nav li{list-style:none;float:left;margin-left:25px;padding:0 5px;
+}
+#nav li a{text-decoration:none;color:#a5a6a7;display:block;margin:0;padding:0;height:46px;font-size:11px;font-weight:bold;text-shadow:none;
+}
+#nav li a span{display:block;padding-top:28px;
+}
+#nav li#nav1{background:url(../img/template/sprite_icons.png) no-repeat 3px -59px;
+}
+#nav li#nav2{background:url(../img/template/sprite_icons.png) no-repeat 2px -99px;
+}
+#nav li#nav3{background:url(../img/template/sprite_icons.png) no-repeat 8px -139px;
+}
+#pan{background:#469cc3;border-top:1px solid #a9d1e4;border-bottom:1px solid #3f8caf;margin:0;color:#f6fafc;font-size:20px;font-weight:normal;padding:10px;text-shadow:0 1px 0 #337898;
+}
