@@ -1,12 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Top extends SIS_Controller {
 
 	 function __construct()
     {
        parent::__construct();
-	   $this->load->helper('url');
-	   $this->load->helper('form');	   
     }
 
 	/**
@@ -26,7 +24,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{ 
-		$this->load->view('welcome_message');
+	
+		$this->load->view($this->device . 'header_v');
+		$this->load->view($this->device . 'nav_v');
+		$this->load->view($this->device . 'top_v');
+		$this->load->view($this->device . 'footer_v');
 	}
 }
 
